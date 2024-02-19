@@ -13,6 +13,7 @@ namespace Proect1
             double x, y;
             Console.Write("Введите x: ");
             x = Convert.ToDouble(Console.ReadLine());
+            y = (Math.Sin(x) - Math.Cos(x))/5;
     }
    }
 }
