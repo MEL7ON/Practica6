@@ -14,6 +14,7 @@ namespace Proect1
             Console.Write("Введите x: ");
             x = Convert.ToDouble(Console.ReadLine());
             y = (Math.Sin(x) - Math.Cos(x))/5;
+            Console.WriteLine("Для значения x = {0}, y = {1:#0.###}", x, y);
     }
    }
 }
