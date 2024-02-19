@@ -10,7 +10,9 @@ namespace Proect1
    {
     static void Main(string[] args)
     {
-
+            double x, y;
+            Console.Write("Введите x: ");
+            x = Convert.ToDouble(Console.ReadLine());
     }
    }
 }
